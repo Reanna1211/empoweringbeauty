@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empowering Beauty</title>
+    <!-- CSS File-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/65e9d1bfee.js" crossorigin="anonymous"></script>
+    <!--bootstrap link-->
+    <link href="'//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+    <div class="navbar">
+    <div class="logo">
+        <img id="logo" src="images/EmpoweringBeautyLogo copy.png">
+    </div>
+
+   <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#reviews" class="nav-link">Reviews</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+   </nav>
+   <div class="nav-toggle" id="nav-toggle">
+    <i class="fa-solid fa-bars"></i> <!-- bars icon -->
+   </div>
+</header>
+
+<!-- Start Home Section -->
+<section class="home">
+    <div class="container">
+        <div  class="home-img">
+            <img id="home-img" src="images/Home_image2.jpg" >
+        </div>
+        <div class="home-content">
+        <h1>Discover stunning lashes and brows at Empowering Beauty.<br> <span>Elevate your beauty now!</span></h1>
+        <p>Come see our lash salon and book your appointment</p>
+        <a href="https://www.fresha.com/a/empowering-beauty-swindon-7-wood-street-ublsdh8h/booking?allOffer=true&menu=true" class="btn btn-outline">
+            <i class="fa-brands fa-whatsapp"></i>
+            Book your appointment <!-- added p tags -->
+        </a>
+    </div>
+
+
+    </div>
+</section>
+
+<!-- End Home Section -->
+
+<!--Start About Section -->
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="section-title">
+            <h1>About Us</h1>
+            <span> Eyelash extensions and eyebrows </span>
+        </div>
+        <div class="about-detail">
+            <div class="about-detail-content">
+                <div class="about-img">
+                    <img src="images/Lash tech 2.jpg" >
+                </div>
+                <div class="about-description">
+                    <p>Empowering Beauty strives to provide a comfortable service with fabulous results at every appointment. It is the go-to salon-based treatment room which specialises in eyelash extensions and eyebrow treatments. Experienced, fully qualified and insured.</p>
+                    <br>
+                    <p>Based on Wood Street in Old Town, Swindon. Parking available just 1 minute walk away at Britannia Place car park or 1 minute away from bus stops.</p>
+                    <br>    
+                    <p>Empower your beauty with gorgeous lashes and brows, click ‘book your appointment’ above to see availability!</p>
+                    <br>   
+                    <br>
+                    <p class="name">Emilie 🤍</p> <!-- added class name to pu temilies nam ein the center-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--End About Section -->
+
+<!--Start Services Section -->
+
+<section class="services" id="services">
+    <div class="services-content">
+        <div class="section-title">
+            <h1>Services</h1>
+            <span>What we do</span>
+        </div>
+
+    
+        <div class="services-content-description">    
+            
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Classic.jpg">
+                    <p>Classics £50 </p>
+                    <p>Infills £25</p>
+                    <p class="popuptext" id="popupClassic"> Length of time: 2 hours. <br> Single lash extensions are attached to natural lashes. Classic lash extensions give a natural look. </p>
+                </div>
+            </div>
+            
+            <!-- <div class="box">
+                <div class="inner">
+                    <div class="popup" onclick="myFunction()">
+                    <img src="images/Classic.jpg">
+                    <p>Classics £50 </p>
+                    <p>Infills £25</p>
+                    <p class="popuptext" id="popupClassic"> Length of time: 2 hours. <br> Single lash extensions are attached to natural lashes. Classic lash extensions give a natural look. </p>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Hybrids 3.jpg">
+                    <p>Hybrids £60 </p>
+                    <p>Infills £30</p>
+                    <p class="popuptext" id="popupClassic"> Length of time: 2 hours. <br> Single and fanned lash extensions are attached to natural lashes. Hybrid lash extensions give a full glam look. Great for those who want more than natural, but less than dramatic. </p>
+                </div>
+            </div>
+
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Russians 2.jpg">
+                    <p>Russians £70 </p>
+                    <p>Infills £35</p>
+                    <p class="popuptext" id="popupRussians"> Length of time: 2 hours. <br> Multiple lash extensions are attached to natural lashes. Russian Volume lash extensions have the most full and dramatic look. Great for sparse lashes and those who want to stand out. </p>
+                </div>
+            </div>
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Lash removal.jpg">
+                    <p>Removal £10</p>
+                    <p class="popuptext" id="popupRemoval"> Length of time: 30mins. <br> Get those extensions removed safely without damaging your natural lashes. Can be booked alongside a full set/lash lift/lash tint. </p>
+                    <br>
+                </div>
+            </div>
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Lash lift.jpg">
+                    <p>Lift and tint £30</p>
+                    <p class="popuptext" id="popupLift"> Length of time: 1 hour 30mins. <br> A perfect treatment for my natural queens, includes a perm of the natural lashes to appear darker and curly. Mascara look without the mascara! Lasts up to 6 weeks. </p>
+                </div>
+            </div>   
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Henna brow.jpg">
+                    <p>Henna brows £35 </p>
+                    <p class="popuptext" id="popupHenna"> Length of time: 1 hour 30mins. <br> Henna brows are a type of tinting that stains the skin and hairs giving you a fuller, shaped brow. Complimentary wax included. Effects can last up to 4 weeks. Perfect for sparse natural brows. </p>
+                </div>
+            </div>
+
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Hybrid eyebrows.jpg">
+                    <p>Hybrid brows £25 </p>
+                    <p class="popuptext" id="popupHybrows"> Length of time: 1 hour <br> The perfect add-on to any lash treatment, a blend between tinted and henna brows colour-matched to your tones. Colour lasts on the skin for up to a week and on the hairs for up to 6 weeks. Patch test required for new hybrid brow clients. </p>
+                </div>
+            </div>
+
+            <div class="popup box" onclick="myFunction(this)">
+                <div class="inner">
+                    <img src="images/Brow lamination.jpg">
+                    <p>Brow lamination £40 </p>
+                    <p class="popuptext" id="popupBrowLam"> Length of time: 1 hour 30mins. <br> Brow lamination involves the “perming” of your eyebrow hairs to provide a fuller, fluffier look. It keeps them in place after washing off any cosmetics you may wear for up to 4 weeks. Complimentary wax and tint included! </p>
+                </div>
+            </div>
+
+        </div>  
+        </div>
+    </div>
+</section>
+
+
+<!--End Services Section -->
+
+<!--Start Gallery Section-->
+
+<section class="gallery" id="gallery">
+    <div class="gallery-content">
+        <div class="section-title">
+        <h1>Gallery</h1>
+        <span>The princesses of our instagram</span>
+        </div>
+        
+        <div class="gallery-list"> 
+            <div class="gallery-list-img">
+                
+                    <div class="gallery-img" >
+                        <img  src="images/Classic.jpg" >
+                        <p>Classics</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Hybrids 5.jpg">
+                        <p>Hybrids</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Hybrids 6.jpg">
+                        <p>Hybrids</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Hybrids 4.jpg">
+                        <p>Hybrids</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Hybrids.jpg">
+                        <p>Hybrids</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Russians 4.jpg">
+                        <p>Russians</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Russians 5.jpg">
+                        <p>Russians</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Russians 6.jpg">
+                        <p>Russians</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img  src="images/Lash lift before and after.jpg">
+                        <p>Lash lift before and after</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Lash lift.jpg">
+                        <p>Lash lift and brow wax and tint</p>
+                    </div>
+                  
+                    <div class="gallery-img" >
+                        <img src="images/Wet look lashes.jpg">
+                        <p>Wet look lashes</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img  src="images/Henna brow.jpg">
+                        <p>Henna brows</p>
+                    </div>
+                     <div class="gallery-img" >
+                        <img  src="images/Brow lamination.jpg">
+                        <p>Brow lamination</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Henna brows lash lift tint 2.jpg">
+                        <p>Henna brows and lash lift & tint</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Henna brows lash lift tint.jpg">
+                        <p>Henna brows and lash lift & tint</p>
+                    </div>
+                    
+                    <div class="gallery-img" >
+                        <img src="images/Hybrids 2.jpg">
+                        <p>Hybrids</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img  src="images/Hybrids 3.jpg">
+                        <p>Hybrids</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img src="images/Russians 6.jpg">
+                        <p>Russians</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img  src="images/Russians.jpg">
+                        <p>Russians</p>
+                    </div>
+                    <div class="gallery-img" >
+                        <img  src="images/Russians 2.jpg">
+                        <p>Russians</p>
+                    </div>
+                    
+                    
+                    
+                
+            <div onclick= "side_slide(-1)" class="slide left" id="left-arrow-slide">
+                <span class="fa fa-angle-left"></span>
+            </div>
+            <div onclick= "side_slide(1)" class="slide right" id="right-arrow-slide">
+                <span class="fa fa-angle-right"></span>
+            </div>
+        </div> 
+       
+
+    </div>
+
+
+
+
+</section>
+
+
+
+
+<!--End Gallery Section-->
+
+<!--Start Reviews Section-->
+
+
+<section class="reviews" id="reviews">
+    <div class="'reviews-content">
+        <div class="section-title">
+            <h1>Reviews</h1>
+            <span>Check out what our clients have to say!</span>
+        </div>
+  
+        <div class="review-list">
+            <div class="review"><p>Excellent service very lovely friendly and professional lady would definitely recommend her 100% for Brow lamination</p>
+                <span>&#11088 &#11088 &#11088 &#11088 &#11088</span>
+                <p>Claire B</p>
+            </div>
+            <div class="review"><p>Always feel relaxed, my lift and tiny and brows look amazing as always Thank you</p>
+                <span>&#11088 &#11088 &#11088 &#11088 &#11088</span>
+                <p>Lynne J.</p>
+            </div>
+            <div class="review"><p>Emilie was lovely as always, great service. Will always recommend her xx</p>
+                <span>&#11088 &#11088 &#11088 &#11088 &#11088</span>
+                <p>Kyla C.</p>
+            </div>
+            <div class="review"><p>Flawless as always. Don't expect anything less than perfection and never dissapointed!</p>
+                <span>&#11088 &#11088 &#11088 &#11088 &#11088</span>
+                <p>Maya H.</p>
+            </div>
+            <div class="review"><p>Emilie is so friendly! We chatted the whole time and the appointment flew by. Beautiful lashes. Thank you!</p>
+                <span>&#11088 &#11088 &#11088 &#11088 &#11088</span>
+                <p>Rosanna K.</p>
+            </div>
+            <div> <a href="https://www.fresha.com/a/empowering-beauty-swindon-7-wood-street-ublsdh8h#modal-reviews" class="review-button">See more... </a></div>
+        </div>
+    </div>
+   
+</section>
+<!--End Reviews Section-->
+
+<section class="contact" id="contact">
+        <div class="contact-content">
+            <div class="section-title">
+                <h1>Contact</h1>
+                <span>How to contact us</span>
+            </div>
+        <div class="footer-list">
+
+            <div class="footer-data">
+                <div class="footer-data-social">
+                    <a href="https://www.facebook.com/empoweringbeautyy/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/empoweringbeauty/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@empoweringbeauty8?_t=8kwki6klTKj&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-data">
+                <h2>Address</h2>
+                <p>7 Wood Street, Beauty Innovations (2nd Floor), Swindon</p>
+            </div>
+
+            <div class="footer-data">
+                <h2>Opening times</h2>
+                <p>Monday closed</p>
+                <p>Tuesday-Friday 10:00am-8:00pm</p>
+                <p>Saturday 11:00am-3:00pm</p>
+                <p>Sunday closed</p>
+            </div>
+
+            <div class="footer-data">
+                <h2>Contact</h2>
+                <p>+44 7914 393347</p>
+            </div>
+    
+    
+    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.8636838494513!2d-1.7777602234151517!3d51.55239857182362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487144523bab1b1b%3A0x40303bb3b99a2c5b!2sBeauty%20Innovations%20-%20Semi%20Permanent%20Makeup%20Swindon!5e0!3m2!1sen!2suk!4v1711113281670!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+            </div>
+
+</div>
+</section>
+
+<footer>
+    <div class="logo-copyright">
+            <span>&copy All Rights Reserved. Created by RKM &#x2764 </span>
+    </div>
+</footer>
+    
+</div>
+
+<!-- End Contact Section-->
+
+<!-- Javascript File-->
+<script src="main.js"></script>
+</body>
+</html>
